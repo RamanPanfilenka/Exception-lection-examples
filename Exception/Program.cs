@@ -2,10 +2,7 @@
 Console.Write("Enter your age: ");
 var ageString = Console.ReadLine();
 
-double number1 = 1.1d;
-int number2 = (int)number1;
-int age = 0;
-var age1 = int.Parse(ageString);
+var age = int.Parse(ageString);
 
 try
 {
